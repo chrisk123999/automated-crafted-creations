@@ -1,0 +1,98 @@
+{
+  "id": "automated-crafted-creations",
+  "title": "Automated Crafted Creations",
+  "description": "Commissioned premade items for high-automation Midi-Qol & CPR games.",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.3.1",
+          "verified": "4.3.1",
+          "maximum": "4.9.9"
+        }
+      }
+    ],
+	"requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {
+          "minimum": "12.4.27"
+        }
+      },
+      {
+        "id": "sequencer",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.3.2"
+        }
+      },
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {
+          "minimum": "1.1.0"
+        }
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {
+          "minimum": "12.0.17"
+        }
+      },
+      {
+        "id": "times-up",
+        "type": "module",
+        "compatibility": {
+          "minimum": "11.3.19"
+        }
+      },
+	  {
+		"id": "chris-premades",
+		"type": "module",
+		"compatibility": {
+          "minimum": "1.2.23"
+        }
+	  }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Chris",
+      "url": "https://github.com/chrisk123999",
+      "discord": "chrisk123999@gmail.com",
+      "ko-fi": "chrisk123999"
+    }
+  ],
+  "esmodules": [
+    "dist/main.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "changelog": "https://github.com/chrisk123999/automated-crafted-creations/blob/master/CHANGELOG.md",
+  "url": "https://github.com/chrisk123999/cautomated-crafted-creations/",
+  "manifest": "https://github.com/chrisk123999/automated-crafted-creations/releases/latest/download/module.json",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": ""
+    }
+  ]
+}
