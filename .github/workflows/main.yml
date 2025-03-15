@@ -1,0 +1,69 @@
+name: Release Creation
+
+on: 
+  release:
+    types: [published]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+    # Install dependencies
+    - run: npm ci
+    - name: Build Compendiums
+      run: npm run buildCompendiums
+    - name: Webpack build
+      run: npm run build
+
+    # Remove the 'v' from the tag for versioning
+    - id: get_version
+      run: |
+        echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_ENV
+        echo "FOUNDRY_MANIFEST=https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.json" >> $GITHUB_ENV
+        echo "FOUNDRY_DOWNLOAD=https://github.com/${{github.repository}}/releases/download/${{github.event.release.tag_name}}/module.zip" >> $GITHUB_ENV
+
+    # Generate module.json
+    - id: generate_manifest
+      run: |
+        cat module-template.json > module.json
+
+    #Substitute the Manifest and Download URLs in the module.json
+    - name: Substitute Manifest and Download Links For Versioned Ones
+      id: sub_manifest_link_version
+      uses: restackio/update-json-file-action@2.1
+      with:
+        file: 'module.json'
+        fields: "{\"version\": \"${{env.VERSION}}\", \"download\": \"${{env.FOUNDRY_DOWNLOAD}}\"}"
+
+    # create a zip file with all files required by the module to add to the release
+    - run: zip -r ./module.zip module.json dist packs styles templates LICENSE lang images
+    # Create a release for this specific version
+    - name: Update Release with Files
+      id: create_version_release
+      uses: ncipollo/release-action@v1
+      with:
+        allowUpdates: true # set this to false if you want to prevent updating existing releases
+        name: ${{github.event.release.name}}
+        draft: false
+        prerelease: true
+        token: ${{secrets.GITHUB_TOKEN}}
+        artifacts: './module.json, ./module.zip'
+        tag: ${{ github.event.release.tag_name }}
+        body: ${{ github.event.release.body }}
+    #- name: FoundryVTT AutoPublish
+    #  uses: fjogeleit/http-request-action@v1
+    #  continue-on-error: true
+    #  with:
+    #    url: 'https://api.foundryvtt.com/_api/packages/release_version'
+    #    method: 'POST'
+    #    customHeaders: '{"Content-Type": "application/json", "Authorization" : "${{ secrets.FOUNDRY_KEY }}"}'
+    #    data: '{"dry_run": false, "id" : "automated-crafted-creations", "release": {"version" :  "${{env.VERSION}}", "manifest": "${{env.FOUNDRY_MANIFEST}}", "notes" : "https://github.com/chrisk123999/automated-crafted-creations/blob/master/CHANGELOG.md", "compatibility" : {"minimum": "12", "verified": "12", "maximum": "12"} } }'
