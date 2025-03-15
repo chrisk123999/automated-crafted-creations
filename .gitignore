@@ -1,0 +1,7 @@
+
+automated-crafted-creations.lock
+packs/
+dist/
+module.json
+node_modules/
+symlinks/

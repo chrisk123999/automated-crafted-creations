@@ -1,0 +1,2 @@
+*.ldb binary
+*.js text eol=lf
