@@ -359,9 +359,9 @@
       "value": "<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p><p>While attuned to Thornwrath, you can cast the spell Steel Wind Strike at will. When you cast Steel Wind Strike using Thornwrath, the spell requires no material, somatic, or verbal components.</p><p>Each time you cast Steel Wind Strike with Thornwrath, you immediately take 6d10 necrotic damage as the blade leeches a portion of your life essence.</p><hr /><p>Forged in the haunted glades where the Feywild’s beauty blurs with sorrow, Thornwrath is an artifact of dreadful elegance. Its blade, a fusion of polished silverwood and midnight-black obsidian. The sword serves as the soulbound instrument of Lady Briarshade, channeling the primeval grace and merciless wrath of fey unlife. Legends claim that every time Thornwrath shatters the veil of space, the lich’s essence is briefly exposed to the shadow between worlds, fueling the blade with uncanny magic at a terrible cost.</p>",
       "chat": ""
     },
-    "identifier": "shortsword-3",
+    "identifier": "thornwrath",
     "source": {
-      "book": "DMG 2024",
+      "book": "",
       "page": "",
       "license": "",
       "custom": "",
