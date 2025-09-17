@@ -1,7 +1,7 @@
 {
   "id": "automated-crafted-creations",
   "title": "Automated Crafted Creations",
-  "description": "Commissioned Premade items for high-automation Midi-Qol & CPR games.",
+  "description": "Homebrew and commissioned items for high-automation Midi-Qol & CPR games.",
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "13",

@@ -1,7 +1,7 @@
 {
   "name": "automated-crafted-creations",
   "version": "0.0.1",
-  "description": "Commissioned Premade items for high-automation Midi-Qol & CPR games.",
+  "description": "Homebrew and commissioned items for high-automation Midi-Qol & CPR games.",
   "directories": {
     "doc": "docs"
   },
