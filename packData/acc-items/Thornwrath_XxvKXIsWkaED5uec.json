@@ -1,0 +1,571 @@
+{
+  "name": "Thornwrath",
+  "type": "weapon",
+  "img": "modules/automated-crafted-creations/images/items/thornwrath.webp",
+  "system": {
+    "activities": {
+      "attackShort3IIII": {
+        "type": "attack",
+        "_id": "attackShort3IIII",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "special": "",
+          "override": true,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {},
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "parts": [],
+          "includeBase": true,
+          "critical": {
+            "bonus": ""
+          }
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "confirmTargets": "default",
+          "automationOnly": false,
+          "identifier": "",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "otherActivityCompatible": true,
+          "otherActivityAsParentType": true,
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none",
+        "otherActivityAsParentType": true,
+        "attackMode": "oneHanded",
+        "ammunition": "",
+        "otherActivityUuid": "",
+        "attackRollPerTarget": "default",
+        "fumbleThreshold": 1
+      },
+      "dVImhIsfy70PGquv": {
+        "type": "damage",
+        "_id": "dVImhIsfy70PGquv",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": true,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": true,
+          "otherActivityCompatible": false,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": ""
+      },
+      "2qPVVG1nlkv4nPsr": {
+        "type": "cast",
+        "_id": "2qPVVG1nlkv4nPsr",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.world.ddb-world-ddb-spells.Item.kgRsBGC0CtYILa68",
+          "ability": "",
+          "level": 5
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "never",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": null,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p><p>While attuned to Thornwrath, you can cast the spell Steel Wind Strike at will. When you cast Steel Wind Strike using Thornwrath, the spell requires no material, somatic, or verbal components.</p><p>Each time you cast Steel Wind Strike with Thornwrath, you immediately take 6d10 necrotic damage as the blade leeches a portion of your life essence.</p><hr /><p>Forged in the haunted glades where the Feywild’s beauty blurs with sorrow, Thornwrath is an artifact of dreadful elegance. Its blade, a fusion of polished silverwood and midnight-black obsidian. The sword serves as the soulbound instrument of Lady Briarshade, channeling the primeval grace and merciless wrath of fey unlife. Legends claim that every time Thornwrath shatters the veil of space, the lich’s essence is briefly exposed to the shadow between worlds, fueling the blade with uncanny magic at a terrible cost.</p>",
+      "chat": ""
+    },
+    "identifier": "shortsword-3",
+    "source": {
+      "book": "DMG 2024",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "crewed": false,
+    "ammunition": {},
+    "armor": {},
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "bonus": "",
+        "types": [
+          "piercing"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "fin",
+      "lgt",
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "shortsword"
+    },
+    "magicalBonus": 3,
+    "mastery": "",
+    "attuned": false,
+    "equipped": true
+  },
+  "effects": [
+    {
+      "name": "Thornwrath",
+      "img": "icons/weapons/swords/shortsword-guard-gold.webp",
+      "origin": "Item.HWaYS1V4Gj4UQysP",
+      "transfer": false,
+      "_id": "4uAXBtIHg9KTlsLI",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "<p>You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p><p>While attuned to Thornwrath, you can cast the spell Steel Wind Strike at will. When you cast Steel Wind Strike using Thornwrath, the spell requires no material, somatic, or verbal components.</p><p>Each time you cast Steel Wind Strike with Thornwrath, you immediately take 6d10 necrotic damage as the blade leeches a portion of your life essence.</p><hr /><p>Forged in the haunted glades where the Feywild’s beauty blurs with sorrow, Thornwrath is an artifact of dreadful elegance. Its blade, a fusion of polished silverwood and midnight-black obsidian. The sword serves as the soulbound instrument of Lady Briarshade, channeling the primeval grace and merciless wrath of fey unlife. Legends claim that every time Thornwrath shatters the veil of space, the lich’s essence is briefly exposed to the shadow between worlds, fueling the blade with uncanny magic at a terrible cost.</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_key": "!items.effects!XxvKXIsWkaED5uec.4uAXBtIHg9KTlsLI"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "last": {
+        "dVImhIsfy70PGquv": {
+          "damageType": {
+            "0": "necrotic"
+          }
+        },
+        "attackShort3IIII": {
+          "attackMode": "oneHanded",
+          "damageType": {
+            "0": "piercing"
+          }
+        }
+      },
+      "riders": {
+        "activity": []
+      }
+    },
+    "ddbimporter": {
+      "originalName": "Shortsword, +3",
+      "version": "6.5.5",
+      "dndbeyond": {
+        "type": "Shortsword",
+        "filterType": "Weapon",
+        "isConsumable": false,
+        "isContainer": false,
+        "isCustomItem": false,
+        "homebrew": false,
+        "isMonkWeapon": true,
+        "isPack": false,
+        "levelInfusionGranted": null,
+        "tags": [
+          "Damage",
+          "Combat"
+        ],
+        "sources": [
+          {
+            "sourceId": 146,
+            "pageNumber": null,
+            "sourceType": 1
+          },
+          {
+            "sourceId": 1,
+            "pageNumber": null,
+            "sourceType": 2
+          },
+          {
+            "sourceId": 148,
+            "pageNumber": null,
+            "sourceType": 2
+          }
+        ],
+        "damage": {
+          "parts": []
+        },
+        "classFeatures": [],
+        "ability": "dex"
+      },
+      "is2014": false,
+      "is2024": true,
+      "legacy": true,
+      "id": 0,
+      "entityTypeId": 0,
+      "definitionEntityTypeId": 112130694,
+      "definitionId": 5330,
+      "defaultAdditionalActivities": {
+        "enabled": true,
+        "data": {}
+      }
+    },
+    "infusions": {
+      "maps": [],
+      "applied": [],
+      "infused": false
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default"
+    },
+    "midiProperties": {
+      "confirmTargets": "default"
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "thornwrath",
+        "version": "0.0.1",
+        "source": "automated-crafted-creations",
+        "rules": "modern"
+      },
+      "macros": {
+        "midi": {
+          "actor": [
+            "thornwrath"
+          ]
+        },
+        "item": [
+          "thornwrath"
+        ]
+      },
+      "hiddenActivities": [],
+      "activityIdentifiers": {
+        "steelWindStrike": "2qPVVG1nlkv4nPsr",
+        "damage": "dVImhIsfy70PGquv"
+      }
+    }
+  },
+  "_id": "XxvKXIsWkaED5uec",
+  "_key": "!items!XxvKXIsWkaED5uec"
+}

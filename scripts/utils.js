@@ -1,3 +1,4 @@
+/*
 export {constants} from '../../chris-premades/scripts/lib/constants.js';
 export {activityUtils} from '../../chris-premades/scripts/lib/utilities/activityUtils.js';
 export {actorUtils} from '../../chris-premades/scripts/lib/utilities/actorUtils.js';
@@ -22,3 +23,54 @@ export {macroUtils} from '../../chris-premades/scripts/lib/utilities/macroUtils.
 export {Crosshairs} from '../../chris-premades/scripts/lib/crosshairs.js';
 export {Summons} from '../../chris-premades/scripts/lib/summons.js';
 export {Teleport} from '../../chris-premades/scripts/lib/teleport.js';
+*/
+
+export let constants = undefined;
+export let errors = undefined;
+export let activityUtils = undefined;
+export let actorUtils = undefined;
+export let devUtils = undefined;
+export let dialogUtils = undefined;
+export let effectUtils = undefined;
+export let genericUtils = undefined;
+export let itemUtils = undefined;
+export let rollUtils = undefined;
+export let socketUtils = undefined;
+export let templateUtils = undefined;
+export let workflowUtils = undefined;
+export let animationUtils = undefined;
+export let tokenUtils = undefined;
+export let compendiumUtils = undefined;
+export let combatUtils = undefined;
+export let crosshairUtils = undefined;
+export let spellUtils = undefined;
+export let regionUtils = undefined;
+export let macroUtils = undefined;
+export let Crosshairs = undefined;
+export let Summons = undefined;
+export let Teleport = undefined;
+export function setup() {
+    constants = globalThis.chrisPremades.utils.constants;
+    errors = globalThis.chrisPremades.utils.errors;
+    activityUtils = globalThis.chrisPremades.utils.activityUtils;
+    actorUtils = globalThis.chrisPremades.utils.actorUtils;
+    devUtils = globalThis.chrisPremades.utils.devUtils;
+    dialogUtils = globalThis.chrisPremades.utils.dialogUtils;
+    effectUtils = globalThis.chrisPremades.utils.effectUtils;
+    genericUtils = globalThis.chrisPremades.utils.genericUtils;
+    rollUtils = globalThis.chrisPremades.utils.rollUtils;
+    socketUtils = globalThis.chrisPremades.utils.socketUtils;
+    templateUtils = globalThis.chrisPremades.utils.templateUtils;
+    workflowUtils = globalThis.chrisPremades.utils.workflowUtils;
+    animationUtils = globalThis.chrisPremades.utils.animationUtils;
+    tokenUtils = globalThis.chrisPremades.utils.tokenUtils;
+    compendiumUtils = globalThis.chrisPremades.utils.compendiumUtils;
+    combatUtils = globalThis.chrisPremades.utils.combatUtils;
+    crosshairUtils = globalThis.chrisPremades.utils.crosshairUtils;
+    spellUtils = globalThis.chrisPremades.utils.spellUtils;
+    regionUtils = globalThis.chrisPremades.utils.regionUtils;
+    macroUtils = globalThis.chrisPremades.utils.macroUtils;
+    Crosshairs = globalThis.chrisPremades.Crosshairs;
+    Summons = globalThis.chrisPremades.Summons;
+    Teleport = globalThis.chrisPremades.Teleport;
+}

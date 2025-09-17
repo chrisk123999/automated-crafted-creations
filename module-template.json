@@ -4,8 +4,9 @@
   "description": "Commissioned premade items for high-automation Midi-Qol & CPR games.",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
   },
   "relationships": {
     "systems": [
@@ -13,9 +14,9 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "4.3.1",
-          "verified": "4.3.1",
-          "maximum": "4.9.9"
+          "minimum": "5.1.5",
+          "verified": "5.1.5",
+          "maximum": "5.9.9"
         }
       }
     ],
@@ -56,14 +57,33 @@
         }
       },
 	  {
-		"id": "chris-premades",
-		"type": "module",
-		"compatibility": {
-          "minimum": "1.2.23"
-        }
-	  }
+      "id": "chris-premades",
+      "type": "module",
+      "compatibility": {
+            "minimum": "1.2.23"
+          }
+      }
     ]
   },
+  "packs": [
+    {
+      "name": "ACCItems",
+      "label": "ACC Items",
+      "path": "packs/acc-items",
+      "type": "Item",
+      "module": "automated-crafted-creations"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Automated Crafted Creatons",
+      "sorting": "a",
+      "color": "#FFD700",
+      "packs": [
+        "ACCItems"
+      ]
+    }
+  ],
   "authors": [
     {
       "name": "Chris",

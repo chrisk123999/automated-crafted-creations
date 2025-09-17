@@ -1,0 +1,212 @@
+{
+  "name": "Chronoloom Pocket Watch",
+  "type": "equipment",
+  "img": "modules/automated-crafted-creations/images/items/chronoloom.webp",
+  "system": {
+    "activities": {
+      "9SGb7JDTV3daCz7S": {
+        "type": "cast",
+        "_id": "9SGb7JDTV3daCz7S",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": null,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.world.ddb-world-ddb-spells.Item.Atg58941dhqhUa1m",
+          "ability": "",
+          "level": 9
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "never",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>The Chronoloom Pocket Watch has 1 charge. As an action, you may speak the command word and open the watch, casting Time Stop (no components required). After casting, roll a d12. On a result of 12, the pocket watch retains its charge. Otherwise, the charge is expended. The watch regains its expended charge at the next dawn.</p><hr /><p>This exquisite pocket watch is fashioned from silvery star-metal, etched with swirling arcane sigils and delicate glyphs of the thirteen moons of Wordal. The face of the watch shimmers with motes of starlight that shift restlessly beneath the glass, the hands ticking silently in perfect rhythm—though never to mortal time. When you hold the Chronoloom, you feel a faint tension, as if the flow of moments themselves strain against its delicate mechanism.</p>",
+      "chat": ""
+    },
+    "identifier": "chronoloom-pocket-watch",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "required",
+    "crewed": false,
+    "armor": {
+      "value": null,
+      "dex": null
+    },
+    "proficient": null,
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "attuned": false,
+    "equipped": true
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "chronoloomPocketWatch",
+        "rules": "modern",
+        "version": "0.0.1",
+        "hasAnimation": false,
+        "source": "automated-crafted-creations"
+      },
+      "macros": {
+        "midi": {
+          "actor": [
+            "chronoloomPocketWatch"
+          ]
+        },
+        "item": [
+          "chronoloomPocketWatch"
+        ]
+      },
+      "hiddenActivities": [],
+      "activityIdentifiers": {
+        "timeStop": "9SGb7JDTV3daCz7S"
+      }
+    }
+  },
+  "_id": "Zc6Mk0kF6mJnRs1O",
+  "_key": "!items!Zc6Mk0kF6mJnRs1O"
+}
