@@ -20,47 +20,40 @@
         }
       }
     ],
-	"requires": [
+	  "requires": [
       {
         "id": "midi-qol",
         "type": "module",
         "compatibility": {
-          "minimum": "12.4.27"
-        }
-      },
-      {
-        "id": "sequencer",
-        "type": "module",
-        "compatibility": {
-          "minimum": "3.3.2"
+          "minimum": "13.0.19"
         }
       },
       {
         "id": "socketlib",
         "type": "module",
         "compatibility": {
-          "minimum": "1.1.0"
+          "minimum": "1.1.2"
         }
       },
       {
         "id": "dae",
         "type": "module",
         "compatibility": {
-          "minimum": "12.0.17"
+          "minimum": "13.0.4"
         }
       },
       {
         "id": "times-up",
         "type": "module",
         "compatibility": {
-          "minimum": "11.3.19"
+          "minimum": "13.1.0"
         }
       },
 	  {
       "id": "chris-premades",
       "type": "module",
       "compatibility": {
-            "minimum": "1.2.23"
+            "minimum": "1.3.59"
           }
       }
     ]
