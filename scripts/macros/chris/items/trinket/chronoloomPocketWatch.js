@@ -1,7 +1,7 @@
 import {activityUtils, genericUtils, rollUtils, spellUtils} from '../../../../utils.js';
 async function use({trigger: {entity: item}, workflow}) {
     if (!workflow.item) return;
-    let uuid = workflow.item.flags.dnd5e.cachedFor;
+    let uuid = workflow.item.flags.dnd5e?.cachedFor;
     if (!uuid) return;
     let activity = await fromUuid(uuid, {relative: workflow.actor});
     if (!activity) return;

@@ -58,6 +58,7 @@ export function setup() {
     dialogUtils = globalThis.chrisPremades.utils.dialogUtils;
     effectUtils = globalThis.chrisPremades.utils.effectUtils;
     genericUtils = globalThis.chrisPremades.utils.genericUtils;
+    itemUtils = globalThis.chrisPremades.utils.itemUtils;
     rollUtils = globalThis.chrisPremades.utils.rollUtils;
     socketUtils = globalThis.chrisPremades.utils.socketUtils;
     templateUtils = globalThis.chrisPremades.utils.templateUtils;

@@ -1,3 +1,10 @@
+# 0.0.3 Release:
+## New Homebrew Items:
+- Sharp Card
+## Bug Fixes:
+- Chronoloom Pocket Watch
+- Thornwrath
+
 # 0.0.2 Release:
 ## Bug Fixes:
 - Fix missing language file.
