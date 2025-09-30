@@ -1,0 +1,1 @@
+export {wildCardsGambitCards} from './macros/2014/rogue/wildCard/wildCardsGambit.js';

@@ -1,3 +1,7 @@
+# 0.0.4 Release:
+## New Legacy Content:
+- Wild Card's Gambit: Playing Cards
+
 # 0.0.3 Release:
 ## New Homebrew Items:
 - Sharp Card

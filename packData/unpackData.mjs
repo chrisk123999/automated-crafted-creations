@@ -1,6 +1,7 @@
 import {compilePack, extractPack} from '@foundryvtt/foundryvtt-cli';
 let itemPacks = [
-    'acc-items'
+    'acc-items',
+    'acc-class-features'
 ];
 let actorPacks = [];
 for (let i of itemPacks) {

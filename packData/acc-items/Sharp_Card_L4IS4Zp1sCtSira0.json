@@ -166,7 +166,7 @@
         "denomination": 4,
         "bonus": "",
         "types": [
-          "piercing"
+          "slashing"
         ],
         "custom": {
           "enabled": false,
@@ -279,7 +279,7 @@
         "identifier": "sharpCard",
         "source": "automated-crafted-creations",
         "rules": "modern",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "hasAnimation": true
       },
       "macros": {

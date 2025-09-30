@@ -1,0 +1,373 @@
+{
+  "name": "Wild Card's Gambit: Playing Cards",
+  "type": "feat",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "system": {
+    "activities": {
+      "VUWV73tvF9i8QBGO": {
+        "type": "attack",
+        "_id": "VUWV73tvF9i8QBGO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "r79WsXtacDrrxGM0",
+              "scaling": {}
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "weapon"
+          },
+          "ability": "dex",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 4,
+              "bonus": "",
+              "types": [
+                "slashing"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": true,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "default"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "",
+        "otherActivityAsParentType": true,
+        "attackMode": "",
+        "ammunition": "",
+        "otherActivityUuid": "",
+        "attackRollPerTarget": "default",
+        "fumbleThreshold": 1,
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "max(@abilities.cha.mod, 1)"
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "wild-cards-gambit",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Wild Card: Shackle",
+      "img": "icons/sundries/survival/cuffs-shackles-steel.webp",
+      "origin": "Item.bTFFFRTlpnsZDCOH",
+      "transfer": false,
+      "_id": "aAVYcGtB5YX6lfsO",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.all",
+          "mode": 0,
+          "value": "/2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 12,
+        "rounds": 2,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnStartSource"
+          ]
+        },
+        "core": {
+          "overlay": false
+        },
+        "chris-premades": {
+          "noAnimation": false,
+          "conditions": [],
+          "specialDuration": [],
+          "templateEffectActivities": [],
+          "info": {
+            "identifier": "shackleEffect"
+          },
+          "rules": "legacy"
+        }
+      },
+      "_key": "!items.effects!XDlinzlvjuI8ofBM.aAVYcGtB5YX6lfsO"
+    },
+    {
+      "name": "Wild Card: Blade",
+      "changes": [
+        {
+          "key": "flags.midi-qol.OverTime",
+          "mode": 0,
+          "value": "turn=start,allowIncapacitated=true,saveDamage=nodamage,saveRemove=true,damageRoll=0,damageType=slashing,rollMode=publicroll,",
+          "priority": 20
+        }
+      ],
+      "transfer": false,
+      "img": "icons/weapons/thrown/dagger-ringed-steel.webp",
+      "_id": "tsrzh3qV5hYUxSYZ",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": 12,
+        "rounds": 2,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": [
+            "turnStart"
+          ]
+        },
+        "core": {
+          "overlay": false
+        },
+        "chris-premades": {
+          "noAnimation": false,
+          "conditions": [],
+          "specialDuration": [],
+          "templateEffectActivities": [],
+          "info": {
+            "identifier": "bladeEffect"
+          },
+          "rules": "legacy"
+        }
+      },
+      "_key": "!items.effects!XDlinzlvjuI8ofBM.tsrzh3qV5hYUxSYZ"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "last": {
+        "VUWV73tvF9i8QBGO": {
+          "damageType": {
+            "0": "slashing"
+          }
+        }
+      },
+      "riders": {
+        "activity": []
+      }
+    },
+    "core": {
+      "sheetClass": ""
+    },
+    "chris-premades": {
+      "hiddenActivities": [],
+      "activityIdentifiers": {
+        "use": "VUWV73tvF9i8QBGO"
+      },
+      "info": {
+        "identifier": "wildCardsGambitCards",
+        "rules": "legacy",
+        "source": "automated-crafted-creations",
+        "version": "0.0.4",
+        "hasAnimation": true
+      },
+      "macros": {
+        "midi": {
+          "item": [
+            "wildCardsGambit",
+            "wildCardsGambitCards"
+          ]
+        }
+      }
+    }
+  },
+  "_id": "XDlinzlvjuI8ofBM",
+  "_key": "!items!XDlinzlvjuI8ofBM"
+}

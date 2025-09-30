@@ -23,8 +23,8 @@ usageMatchRegex:
   - "\\{\\{[\\w\\.\\s\\=]*\\(localize\\s+[\"']({key})['\"]\\)[\\w\\.\\s\\=]*\\}\\}"
   - "data-tooltip\\=[\"']({key})['\"]"
   - "genericUtils\\.translate\\('({key})'\\)"
-  - "'(CHRISPREMADES\\.{key})'"
   - "'(DND5E\\.{key})'"
+  - "'(AUTOMATEDCRAFTEDCREATIONS\\.{key})'"
 
 # If set to true, only enables this custom framework (will disable all built-in frameworks)
 monopoly: true

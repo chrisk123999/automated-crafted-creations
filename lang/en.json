@@ -1,1 +1,10 @@
-{}
+{
+    "AUTOMATEDCRAFTEDCREATIONS": {
+        "WildCardsGambit": {
+            "Blade": "Blade",
+            "Heart": "Heart",
+            "Select": "Select a card:",
+            "Shackle": "Shackle"
+        }
+    }
+}
