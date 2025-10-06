@@ -1,0 +1,129 @@
+{
+  "name": "Undead Acclimation",
+  "type": "feat",
+  "img": "icons/magic/death/undead-skeleton-lich-armor.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "undead-acclimation",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Undead Acclimation",
+      "changes": [
+        {
+          "key": "flags.midi-qol.grants.noCritical.all",
+          "mode": 0,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": 20
+        }
+      ],
+      "transfer": true,
+      "img": "icons/magic/death/undead-skeleton-lich-armor.webp",
+      "_id": "RZ10JQGxtaCmZZQM",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Actor.15qgvtA1XaZ2SLAu.Item.FMIKNw8lR12qkkYB",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        },
+        "chris-premades": {
+          "noAnimation": false,
+          "conditions": [],
+          "specialDuration": [],
+          "templateEffectActivities": [],
+          "info": {
+            "identifier": "auraOfLifeAura"
+          },
+          "rules": "legacy"
+        }
+      },
+      "_key": "!items.effects!bqaaz8bn4vNurC90.RZ10JQGxtaCmZZQM"
+    }
+  ],
+  "folder": "AS1iGQSeUts6IRkm",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "undeadAcclimation",
+        "rules": "legacy",
+        "source": "automated-crafted-creations",
+        "version": "0.0.5"
+      }
+    }
+  },
+  "_id": "bqaaz8bn4vNurC90",
+  "_key": "!items!bqaaz8bn4vNurC90"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Bulwark of the Undead",
+  "type": "feat",
+  "img": "icons/commodities/biological/shell-tan.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "bulwark-of-the-undead",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Bulwark of the Undead",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "diseased",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.ac.formula",
+          "mode": 5,
+          "value": "10 + @abilities.dex.mod + @abilities.con.mod",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "custom",
+          "priority": 20
+        }
+      ],
+      "transfer": true,
+      "img": "icons/commodities/biological/shell-tan.webp",
+      "_id": "m9qlsHUKClyPfGGI",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Actor.15qgvtA1XaZ2SLAu.Item.o9a6JGx9A1LNVo3b",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!QKsBVjvhtJbkwGEA.m9qlsHUKClyPfGGI"
+    }
+  ],
+  "folder": "AS1iGQSeUts6IRkm",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "bulwarkOfTheUndead",
+        "rules": "legacy",
+        "source": "automated-crafted-creations",
+        "version": "0.0.5"
+      }
+    }
+  },
+  "_id": "QKsBVjvhtJbkwGEA",
+  "_key": "!items!QKsBVjvhtJbkwGEA"
+}
