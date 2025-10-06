@@ -1,5 +1,45 @@
 {
     "AUTOMATEDCRAFTEDCREATIONS": {
+        "DeathlessVigor": {
+            "Failed": "You have failed your save ({total})! Use {name}?"
+        },
+        "DeathsWhisper": {
+            "Skill": "This check is related to the undead"
+        },
+        "Generic": {
+            "Shortbow": {
+                "Name": "Shortbow"
+            },
+            "Shortsword": {
+                "Name": "Shortsword"
+            }
+        },
+        "ThrallsBoon": {
+            "Reaction": "Undead Servant has already used its reaction!",
+            "TooFar": "Undead servant is too far away!",
+            "WrongType": "The item must have a range of touch!"
+        },
+        "UndeadServantDust": {
+            "AshenShawl": {
+                "Name": "Ashen Shawl"
+            },
+            "BeguilingAppearance": {
+                "Name": "Beguiling Appearance"
+            },
+            "ChaASI": "Charsima ASI:",
+            "ConASI": "Constituion ASI:",
+            "DexASI": "Dexterity ASI:",
+            "DredgedBreath": {
+                "Name": "Dredged Breath"
+            },
+            "DustSkeleton": {
+                "Name": "Dust Skeleton"
+            },
+            "IntASI": "Intelligence ASI:",
+            "RollHP": "Roll Hitpoints:",
+            "StrASI": "Strength ASI:",
+            "WisASI": "Wisdom ASI:"
+        },
         "WildCardsGambit": {
             "Blade": "Blade",
             "Heart": "Heart",

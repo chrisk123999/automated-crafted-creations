@@ -20,6 +20,7 @@ export {crosshairUtils} from '../../chris-premades/scripts/lib/utilities/crossha
 export {spellUtils} from '../../chris-premades/scripts/lib/utilities/spellUtils.js';
 export {regionUtils} from '../../chris-premades/scripts/lib/utilities/regionUtils.js';
 export {macroUtils} from '../../chris-premades/scripts/lib/utilities/macroUtils.js';
+export {thirdPartyUtils} from '../../chris-premades/scripts/lib/utilities/thirdPartyUtils.js';
 export {Crosshairs} from '../../chris-premades/scripts/lib/crosshairs.js';
 export {Summons} from '../../chris-premades/scripts/lib/summons.js';
 export {Teleport} from '../../chris-premades/scripts/lib/teleport.js';
@@ -46,6 +47,7 @@ export let crosshairUtils = undefined;
 export let spellUtils = undefined;
 export let regionUtils = undefined;
 export let macroUtils = undefined;
+export let thirdPartyUtils = undefined;
 export let Crosshairs = undefined;
 export let Summons = undefined;
 export let Teleport = undefined;
@@ -71,6 +73,7 @@ export function setup() {
     spellUtils = globalThis.chrisPremades.utils.spellUtils;
     regionUtils = globalThis.chrisPremades.utils.regionUtils;
     macroUtils = globalThis.chrisPremades.utils.macroUtils;
+    thirdPartyUtils = globalThis.chrisPremades.utils.thirdPartyUtils;
     Crosshairs = globalThis.chrisPremades.Crosshairs;
     Summons = globalThis.chrisPremades.Summons;
     Teleport = globalThis.chrisPremades.Teleport;

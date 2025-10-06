@@ -53,7 +53,7 @@
       "id": "chris-premades",
       "type": "module",
       "compatibility": {
-            "minimum": "1.3.79"
+            "minimum": "1.3.92"
           }
       }
     ]
@@ -72,6 +72,27 @@
       "path": "packs/acc-class-features",
       "type": "Item",
       "module": "automated-crafted-creations"
+    },
+    {
+      "name": "ACCSummons",
+      "label": "ACC Summons",
+      "path": "packs/acc-summons",
+      "type": "Actor",
+      "module": "automated-crafted-creations"
+    },
+    {
+      "name": "ACCSummonFeatures",
+      "label": "ACC Summon Features",
+      "path": "packs/acc-summon-features",
+      "type": "Item",
+      "module": "automated-crafted-creations"
+    },
+    {
+      "name": "ACCMonsters",
+      "label": "ACC Monsters",
+      "path": "packs/acc-monsters",
+      "type": "Actor",
+      "module": "automated-crafted-creations"
     }
   ],
   "packFolders": [
@@ -81,7 +102,10 @@
       "color": "#FFD700",
       "packs": [
         "ACCItems",
-        "ACCClassFeatures"
+        "ACCClassFeatures",
+        "ACCSummons",
+        "ACCSummonFeatures",
+        "ACCMonsters"
       ]
     }
   ],

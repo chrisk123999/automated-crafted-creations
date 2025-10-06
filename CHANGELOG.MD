@@ -1,3 +1,15 @@
+# 0.0.5 Release:
+## New Legacy Content:
+- Bulwark of the Undead
+- Dark Mending
+- Deathless Vigor
+- Death's Whisper
+- Thrall's Boon
+- Undead Acclimation
+- Undead Servant (Dust Skeleton)
+## New Homebrew Monsters:
+- Sentient Echo Ooze
+
 # 0.0.4 Release:
 ## New Legacy Content:
 - Wild Card's Gambit: Playing Cards
