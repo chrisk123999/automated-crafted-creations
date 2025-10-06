@@ -1,3 +1,7 @@
+# 0.0.6 Release:
+## Bug Fixes:
+- Bulwark of the Undead
+
 # 0.0.5 Release:
 ## New Legacy Content:
 - Bulwark of the Undead

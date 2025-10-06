@@ -48,7 +48,7 @@
         {
           "key": "system.attributes.ac.formula",
           "mode": 5,
-          "value": "10 + @abilities.dex.mod + @abilities.con.mod",
+          "value": "13 + @abilities.con.mod",
           "priority": 20
         },
         {
@@ -116,7 +116,7 @@
         "identifier": "bulwarkOfTheUndead",
         "rules": "legacy",
         "source": "automated-crafted-creations",
-        "version": "0.0.5"
+        "version": "0.0.6"
       }
     }
   },
