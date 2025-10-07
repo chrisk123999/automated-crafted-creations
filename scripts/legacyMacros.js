@@ -6,3 +6,6 @@ export {deathsWhisper} from './macros/2014/graveWarden/deathsWhisper.js';
 export {deathlessVigor} from './macros/2014/graveWarden/deathlessVigor.js';
 export {thrallsBoon, thrallsBoonTouch} from './macros/2014/graveWarden/thrallsBoon.js';
 export {undeadAcclimation} from './macros/2014/graveWarden/undeadAcclimation.js';
+export {rebukeTheGrave} from './macros/2014/graveWarden/rebukeTheGrave.js';
+export {undeadGraftSkeletal} from './macros/2014/graveWarden/ash/undeadGraftSkeletal.js';
+export {paralyzingTouch} from './macros/2014/graveWarden/ash/paralyzingTouch.js';

@@ -1,0 +1,2634 @@
+{
+  "name": "Sentient Echo Ooze",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "con": {
+        "value": 22,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "int": {
+        "value": 12,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "wis": {
+        "value": 16,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 2,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0
+      },
+      "spell2": {
+        "value": 0
+      },
+      "spell3": {
+        "value": 0
+      },
+      "spell4": {
+        "value": 0
+      },
+      "spell5": {
+        "value": 0
+      },
+      "spell6": {
+        "value": 0
+      },
+      "spell7": {
+        "value": 0
+      },
+      "spell8": {
+        "value": 0
+      },
+      "spell9": {
+        "value": 0
+      },
+      "pact": {
+        "value": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "natural",
+        "formula": ""
+      },
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": 40,
+        "fly": null,
+        "swim": null,
+        "walk": 40,
+        "units": "ft",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "special": ""
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 120,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "loyalty": {},
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 276,
+        "max": 276,
+        "temp": 0,
+        "tempmax": null,
+        "formula": "24d10 + 144"
+      },
+      "death": {
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0,
+        "bonuses": {
+          "save": ""
+        }
+      },
+      "spell": {
+        "level": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Sentient Echo Ooze is a dreadful remnant of a world long lost to chaos, swept into Wordal by a violent Planar Conjunction. On their home plane, these oozes were used as vessels for collective memory, absorbing the thoughts and dreams of a once-great civilization to preserve its legacy. But something went wrong: the flood of consciousness warped the oozes, granting them uncanny intelligence and a yearning for new minds and identities. Now, in the realm of Wordal, Sentient Echo Oozes haunt the places where the fabric between worlds runs thin. They roam in search of sentient creatures, drawn by the psychic resonance of living thoughts.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "ooze",
+        "subtype": ""
+      },
+      "habitat": {
+        "value": [],
+        "custom": ""
+      },
+      "cr": 15,
+      "treasure": {
+        "value": []
+      }
+    },
+    "resources": {
+      "legact": {
+        "max": 0,
+        "spent": 0
+      },
+      "legres": {
+        "max": 0,
+        "spent": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null,
+        "inside": false
+      }
+    },
+    "source": {
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [
+          "acid",
+          "fire"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "cold",
+          "lightning",
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "exhaustion",
+          "frightened",
+          "grappled",
+          "prone",
+          "restrained"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {
+          "telepathy": {
+            "value": null,
+            "units": "ft"
+          }
+        }
+      },
+      "important": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Dragonblood Ooze",
+    "displayName": 30,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": true,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "detectionModes": [
+      {
+        "id": "senseAll",
+        "range": 120,
+        "enabled": true
+      }
+    ],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {
+      "tagger": {
+        "tags": [
+          "dndbeyond",
+          "ddb-importer",
+          "ooze"
+        ]
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "_id": "rPczcBfXXAqFHXJl",
+      "name": "Multiattack",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "utilityMulaction": {
+            "type": "utility",
+            "_id": "utilityMulaction",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {},
+            "duration": {
+              "value": "",
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "confirmTargets": "default",
+              "automationOnly": false,
+              "identifier": "",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true
+          }
+        },
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] makes three Pseudopod attacks. It can replace one attack with Slime Spray, if available.</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbDraOoz2059726"
+        },
+        "monsterMunch": {
+          "titleHTML": "<strong>Multiattack.</strong>",
+          "fullName": "Multiattack.",
+          "actionCopy": false,
+          "type": "action",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "sort": 0,
+      "img": "icons/skills/melee/strike-weapons-orange.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.rPczcBfXXAqFHXJl"
+    },
+    {
+      "_id": "6nqt2VMOq2XjZYHn",
+      "name": "Pseudopod",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "attackPseuaction": {
+            "type": "attack",
+            "_id": "attackPseuaction",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "value": "1",
+              "units": "month",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "zSqq5bT9cGCbtvUw"
+              }
+            ],
+            "range": {
+              "units": "ft",
+              "override": false,
+              "value": "",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "ability": "str",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "@mod",
+                  "types": [
+                    "bludgeoning"
+                  ]
+                },
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ]
+                }
+              ]
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "confirmTargets": "default",
+              "automationOnly": false,
+              "identifier": "",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "otherActivityCompatible": true,
+              "otherActivityAsParentType": true,
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "attackMode": "",
+            "ammunition": "",
+            "otherActivityUuid": "",
+            "attackRollPerTarget": "default",
+            "fumbleThreshold": 1,
+            "name": "",
+            "img": "",
+            "appliedEffects": [
+              "zSqq5bT9cGCbtvUw"
+            ]
+          }
+        },
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 15 ft., one target. <em>Hit:</em> 15 (2d8 + 6) bludgeoning damage plus 17 (4d6 + 3) acid damage. If the target is Large or smaller, it is grappled (escape DC 18). Until this grapple ends, the target takes 10 (3d6) acid damage at the start of each of its turns.</p><hr /><p>A sticky, powerful tentacle whips outward, gripping and burning its prey.</p>",
+          "chat": ""
+        },
+        "identifier": "pseudopod",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [
+          "rch"
+        ],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "Pseudopod",
+          "img": "icons/magic/water/tendrils-ice-growth.webp",
+          "origin": "Actor.7Fts9zodXGdBKvGg.Item.6nqt2VMOq2XjZYHn",
+          "transfer": false,
+          "_id": "zSqq5bT9cGCbtvUw",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "flags.midi-qol.OverTime",
+              "value": "turn=start,allowIncapacitated=true,rollType=skill,saveAbility=acr,saveDC=$activity.dc,saveDamage=nodamage,saveRemove=true,actionSave=roll,damageRoll=3d6,damageType=acid,rollMode=publicroll,",
+              "mode": 0,
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "chris-premades": {
+              "noAnimation": false,
+              "conditions": [
+                "grappled"
+              ],
+              "specialDuration": [],
+              "templateEffectActivities": []
+            },
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            },
+            "dae": {
+              "enableCondition": "",
+              "disableCondition": "",
+              "stackable": "noneName",
+              "showIcon": false,
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "core": {
+              "overlay": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "lastModifiedBy": "keUAhTdP6NSuKAo0",
+            "modifiedTime": 1759782619881
+          },
+          "_key": "!actors.items.effects!vHEGmGJeJPcVKhjj.6nqt2VMOq2XjZYHn.zSqq5bT9cGCbtvUw"
+        }
+      ],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbDraOoz2059726"
+        },
+        "monsterMunch": {
+          "titleHTML": "<strong>Pseudopod.</strong>",
+          "fullName": "Pseudopod.",
+          "actionCopy": false,
+          "type": "action",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [
+              {
+                "profBonus": "",
+                "levelBonus": false,
+                "versatile": false,
+                "other": false,
+                "part": {
+                  "number": 1,
+                  "denomination": 10,
+                  "bonus": "@mod",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                },
+                "includesDice": true,
+                "noBonus": false,
+                "damageHasMod": true
+              },
+              {
+                "profBonus": "",
+                "levelBonus": false,
+                "versatile": false,
+                "other": false,
+                "part": {
+                  "number": 4,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                },
+                "includesDice": true,
+                "noBonus": true,
+                "damageHasMod": false
+              },
+              {
+                "profBonus": "",
+                "levelBonus": false,
+                "versatile": false,
+                "other": false,
+                "part": {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                },
+                "includesDice": true,
+                "noBonus": true,
+                "damageHasMod": false
+              }
+            ],
+            "baseAbility": "str",
+            "toHit": 7,
+            "proficient": true,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "otherSaveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "sort": 1,
+      "img": "icons/magic/water/tendrils-ice-growth.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": "keUAhTdP6NSuKAo0",
+        "modifiedTime": 1759782875346
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.6nqt2VMOq2XjZYHn"
+    },
+    {
+      "_id": "ATn9f0iKo6Zlnjnq",
+      "name": "Slime Spray",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "saveSliBreaction": {
+            "type": "save",
+            "_id": "saveSliBreaction",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {}
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "value": "",
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "cone",
+                "size": "60",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "critical": {
+                "allow": false
+              },
+              "onSave": "half",
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 10,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "18"
+              }
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "confirmTargets": "default",
+              "automationOnly": false,
+              "identifier": "",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "otherActivityCompatible": false,
+              "otherActivityAsParentType": true,
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "friendlySave": "default",
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "6",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] expels a caustic torrent in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 45 (10d8) acid damage on a failed save, or half as much on a success. Creatures that fail are also dragged up to 40 feet straight toward the ooze.</p><hr /><p>A surge of toxic, glowing ooze erupts outward, burning and pulling victims closer.</p>",
+          "chat": ""
+        },
+        "identifier": "slime-breath",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbDraOoz2059726"
+        },
+        "monsterMunch": {
+          "titleHTML": "<strong>Slime Breath (Recharge 6).</strong>",
+          "fullName": "Slime Breath (Recharge 6).",
+          "actionCopy": false,
+          "type": "action",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [
+              {
+                "profBonus": "",
+                "levelBonus": false,
+                "versatile": false,
+                "other": false,
+                "part": {
+                  "number": 4,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                },
+                "includesDice": true,
+                "noBonus": true,
+                "damageHasMod": false
+              }
+            ],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        },
+        "chris-premades": {
+          "config": {
+            "generic": {
+              "autoPush": {
+                "applied": true,
+                "activities": [
+                  "saveSliBreaction"
+                ],
+                "distance": -40,
+                "failed": true,
+                "hit": true,
+                "maxSize": false
+              }
+            }
+          },
+          "macros": {
+            "midi": {
+              "item": [
+                "autoPush"
+              ]
+            }
+          }
+        }
+      },
+      "sort": 2,
+      "img": "icons/creatures/slimes/slime-movement-pseudopods-blue.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.ATn9f0iKo6Zlnjnq"
+    },
+    {
+      "_id": "DuNqq718uCDp0xxF",
+      "name": "Amorphous",
+      "type": "feat",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "advancement": [],
+        "description": {
+          "value": "<div class=\"ddb\"><p><em><strong>Amorphous.</strong></em> The [[lookup @name lowercase]] can move through a space as narrow as 1 inch wide without squeezing.</p></div>",
+          "chat": ""
+        },
+        "identifier": "amorphous",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbDraOoz2059726"
+        },
+        "monsterMunch": {
+          "titleHTML": "<em><strong>Amorphous.</strong></em>",
+          "fullName": "Amorphous.",
+          "actionCopy": false,
+          "type": "special",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "sort": 3,
+      "img": "icons/creatures/slimes/slime-face-hollow-green.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.DuNqq718uCDp0xxF"
+    },
+    {
+      "_id": "CB7Oxd3PwFbBV50t",
+      "name": "Spider Climb",
+      "type": "feat",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "advancement": [],
+        "description": {
+          "value": "<div class=\"ddb\"><p><em><strong>Spider Climb.</strong></em> The [[lookup @name lowercase]] can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p></div>",
+          "chat": ""
+        },
+        "identifier": "spider-climb",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbDraOoz2059726"
+        },
+        "monsterMunch": {
+          "titleHTML": "<em><strong>Spider Climb.</strong></em>",
+          "fullName": "Spider Climb.",
+          "actionCopy": false,
+          "type": "special",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "sort": 4,
+      "img": "icons/creatures/invertebrates/spider-beetle-runed-green.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.CB7Oxd3PwFbBV50t"
+    },
+    {
+      "_id": "5nNmgYZYUki8vKe9",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>The [[lookup @name lowercase]] has<strong> </strong>advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "SRD 5.1",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "identifier": "magic-resistance",
+        "advancement": [],
+        "crewed": false
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.5nNmgYZYUki8vKe9"
+    },
+    {
+      "_id": "xGHpU30iXjWIlHX4",
+      "name": "Acid Absorption",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Whenever the [[lookup @name lowercase]] is subjected to acid damage, it takes no damage and instead regains a number of hit points equal to the acid damage dealt.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "SRD 5.1",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "activities": {},
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "identifier": "acid-absorption",
+        "advancement": [],
+        "crewed": false
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        }
+      },
+      "img": "icons/magic/unholy/orb-smoking-green.webp",
+      "effects": [
+        {
+          "name": "Acid Absorption",
+          "changes": [
+            {
+              "key": "system.traits.da.acid",
+              "mode": 2,
+              "value": "-1",
+              "priority": 20
+            }
+          ],
+          "transfer": true,
+          "img": "icons/magic/unholy/orb-smoking-green.webp",
+          "_id": "fs0COLjr50dx0CSg",
+          "type": "base",
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "origin": "Actor.7Fts9zodXGdBKvGg.Item.xGHpU30iXjWIlHX4",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            },
+            "dae": {
+              "enableCondition": "",
+              "disableCondition": "",
+              "stackable": "noneName",
+              "showIcon": false,
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "core": {
+              "overlay": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!vHEGmGJeJPcVKhjj.xGHpU30iXjWIlHX4.fs0COLjr50dx0CSg"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.xGHpU30iXjWIlHX4"
+    },
+    {
+      "_id": "gMXmMUgc8fgWZqEs",
+      "name": "Echo Infestation",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "savePossesaction": {
+            "type": "save",
+            "_id": "savePossesaction",
+            "sort": 0,
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {}
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "value": "1",
+              "units": "year",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "eYXeAo8QbM83xIVb",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": "10",
+              "units": "ft",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "5",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "critical": {
+                "allow": false
+              },
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "cha"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "18"
+              }
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "confirmTargets": "default",
+              "automationOnly": false,
+              "identifier": "",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "otherActivityCompatible": false,
+              "otherActivityAsParentType": true,
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "friendlySave": "default",
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "6",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>Echo Infestation (Recharge 6). One creature within 10 feet must succeed on a DC 18 Charisma saving throw or become Infested. While infested, the ooze merges with the host, taking complete control. The ooze uses the host’s physical stats, proficiencies, class features, resistances, and immunities. The host is aware but unable to control their body. The infestation ends if the host drops to 0 hit points or a dispel evil and good, greater restoration, or wish spell is cast, or if the ooze ends it as a bonus action. When it ends, the ooze reforms in an adjacent space. The target is immune to this ability for 24 hours after saving or after the effect ends.</p><hr /><p>The ooze surges into its victim’s mouth and nostrils, rapidly dissolving into their body as its own will takes hold.</p>",
+          "chat": ""
+        },
+        "identifier": "possession",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "Echo Infestation",
+          "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+          "origin": "Actor.7Fts9zodXGdBKvGg.Item.gMXmMUgc8fgWZqEs",
+          "transfer": false,
+          "_id": "eYXeAo8QbM83xIVb",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!vHEGmGJeJPcVKhjj.gMXmMUgc8fgWZqEs.eYXeAo8QbM83xIVb"
+        }
+      ],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "parentId": "ddbGhost16871III"
+        },
+        "monsterMunch": {
+          "titleHTML": "<strong>Possession (Recharge 6).</strong>",
+          "fullName": "Possession (Recharge 6).",
+          "actionCopy": false,
+          "type": "action",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam"
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        },
+        "chris-premades": {
+          "config": {
+            "generic": {
+              "effectImmunity": {
+                "applied": true,
+                "duration": 86400
+              }
+            }
+          },
+          "macros": {
+            "midi": {
+              "item": [
+                "effectImmunity"
+              ]
+            }
+          }
+        }
+      },
+      "sort": 3,
+      "img": "icons/magic/death/undead-skeleton-deformed-red.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.gMXmMUgc8fgWZqEs"
+    },
+    {
+      "_id": "65UwUanfKrtiqzns",
+      "name": "Memory Shroud",
+      "type": "feat",
+      "system": {
+        "activities": {
+          "saveHorVisaction": {
+            "type": "save",
+            "_id": "saveHorVisaction",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "value": "1",
+              "units": "minute",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "RLbvFaCrgNHyqo8A",
+                "onSave": false
+              }
+            ],
+            "range": {
+              "value": "60",
+              "units": "ft",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "emanationNoTemplate",
+                "size": "60",
+                "width": "",
+                "height": "",
+                "units": "ft"
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "critical": {
+                "allow": false
+              },
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "18"
+              }
+            },
+            "useConditionText": "",
+            "useConditionReason": "",
+            "effectConditionText": "",
+            "macroData": {
+              "name": "",
+              "command": ""
+            },
+            "ignoreTraits": {
+              "idi": false,
+              "idr": false,
+              "idv": false,
+              "ida": false,
+              "idm": false
+            },
+            "midiProperties": {
+              "ignoreTraits": [],
+              "triggeredActivityId": "none",
+              "triggeredActivityConditionText": "",
+              "triggeredActivityTargets": "targets",
+              "triggeredActivityRollAs": "self",
+              "confirmTargets": "default",
+              "automationOnly": false,
+              "identifier": "",
+              "autoConsume": false,
+              "forceConsumeDialog": "default",
+              "forceRollDialog": "default",
+              "forceDamageDialog": "default",
+              "autoTargetType": "any",
+              "autoTargetAction": "default",
+              "otherActivityCompatible": false,
+              "otherActivityAsParentType": true,
+              "displayActivityName": false,
+              "rollMode": "default",
+              "chooseEffects": false,
+              "toggleEffect": false,
+              "ignoreFullCover": false,
+              "removeChatButtons": "default",
+              "magicEffect": false,
+              "magicDamage": false,
+              "noConcentrationCheck": false,
+              "autoCEEffects": "default"
+            },
+            "isOverTimeFlag": false,
+            "overTimeProperties": {
+              "saveRemoves": true,
+              "preRemoveConditionText": "",
+              "postRemoveConditionText": ""
+            },
+            "otherActivityId": "none",
+            "otherActivityAsParentType": true,
+            "friendlySave": "default",
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": null,
+          "recovery": []
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>Each creature within 60 feet that can see the [[lookup @name lowercase]] must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. While frightened, creatures see agonized faces and flashes of pain within the ooze’s body. Creatures affected can repeat the save at the end of their turns, ending the effect on a success. Immune for 24 hours after a successful save or after the effect ends.</p><hr /><p>The ooze’s surface ripples with distorted, tormented faces and flickering memories, flooding your mind with visions of loss and fear that aren’t your own.</p>",
+          "chat": ""
+        },
+        "identifier": "horrifying-visage",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "Memory Shroud",
+          "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+          "origin": "Actor.7Fts9zodXGdBKvGg.Item.65UwUanfKrtiqzns",
+          "transfer": false,
+          "_id": "RLbvFaCrgNHyqo8A",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "flags.midi-qol.OverTime",
+              "value": "turn=end,allowIncapacitated=true,rollType=save,saveAbility=wis,saveDC=$activity.dc,saveDamage=nodamage,saveRemove=true,rollMode=publicroll,",
+              "mode": 0,
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "chris-premades": {
+              "noAnimation": false,
+              "conditions": [
+                "frightened"
+              ],
+              "specialDuration": [],
+              "templateEffectActivities": []
+            },
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            },
+            "dae": {
+              "enableCondition": "",
+              "disableCondition": "",
+              "stackable": "noneName",
+              "showIcon": false,
+              "disableIncapacitated": false,
+              "selfTarget": false,
+              "selfTargetAlways": false,
+              "dontApply": false,
+              "durationExpression": "",
+              "macroRepeat": "none",
+              "specialDuration": []
+            },
+            "core": {
+              "overlay": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.348",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.9",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!vHEGmGJeJPcVKhjj.65UwUanfKrtiqzns.RLbvFaCrgNHyqo8A"
+        }
+      ],
+      "flags": {
+        "ddbimporter": {
+          "levelBonus": false,
+          "profBonus": false,
+          "spellSave": false,
+          "dndbeyond": {},
+          "effectsApplied": true,
+          "parentId": "ddbGhost16871III"
+        },
+        "monsterMunch": {
+          "titleHTML": "<strong>Horrifying Visage.</strong>",
+          "fullName": "Horrifying Visage.",
+          "actionCopy": false,
+          "type": "action",
+          "actionData": {
+            "damage": {
+              "base": null,
+              "onSave": null
+            },
+            "damageParts": [],
+            "baseAbility": null,
+            "toHit": 0,
+            "proficient": false,
+            "extraAttackBonus": 0
+          }
+        },
+        "midiProperties": {
+          "saveDamage": "halfdam",
+          "fulldam": true,
+          "confirmTargets": "default"
+        },
+        "midi-qol": {
+          "removeAttackDamageButtons": "default",
+          "forceCEOff": true
+        },
+        "dnd5e": {
+          "riders": {
+            "activity": []
+          }
+        },
+        "chris-premades": {
+          "config": {
+            "generic": {
+              "effectImmunity": {
+                "applied": true,
+                "duration": 86400
+              }
+            }
+          },
+          "macros": {
+            "midi": {
+              "item": [
+                "effectImmunity"
+              ]
+            }
+          }
+        }
+      },
+      "sort": 2,
+      "img": "icons/magic/control/fear-fright-monster-grin-purple-blue.webp",
+      "folder": null,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.348",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.9",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!vHEGmGJeJPcVKhjj.65UwUanfKrtiqzns"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "dnd5e": {},
+    "monsterMunch": {
+      "url": "https://www.dndbeyond.com/monsters/2059726-dragonblood-ooze",
+      "img": "https://www.dndbeyond.com/avatars/21205/222/637707682445209587.png",
+      "tokenImg": "https://www.dndbeyond.com/avatars/21205/221/637707682444273613.jpeg",
+      "isStockImg": false,
+      "spellList": {
+        "class": [],
+        "pact": [],
+        "atwill": [],
+        "innate": [],
+        "edgeCases": [],
+        "material": true,
+        "innateMatch": false,
+        "concentration": true
+      }
+    },
+    "ddbimporter": {
+      "id": 2059726,
+      "entityTypeId": 779871897,
+      "creatureGroupId": null,
+      "creatureFlags": [],
+      "version": "6.5.12",
+      "isLegacy": false,
+      "sources": [
+        {
+          "sourceId": 81,
+          "pageNumber": 182,
+          "sourceType": 1
+        }
+      ],
+      "compendiumId": "ddbDraOoz2059726",
+      "sourceId": 81,
+      "sourceCategory": 1,
+      "flatAC": false
+    }
+  },
+  "_id": "vHEGmGJeJPcVKhjj",
+  "_key": "!actors!vHEGmGJeJPcVKhjj"
+}

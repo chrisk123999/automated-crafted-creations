@@ -3,7 +3,10 @@ let itemPacks = [
     'acc-items',
     'acc-class-features'
 ];
-let actorPacks = [];
+let actorPacks = [
+    'acc-monsters',
+    'acc-summons'
+];
 for (let i of itemPacks) {
     await extractPack('packs/' + i, 'packData/' + i, {'log': true, 'documentType': 'Item', transformEntry: (entry) => {
         delete entry._stats;

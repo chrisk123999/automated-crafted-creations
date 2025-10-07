@@ -1,3 +1,11 @@
+# 0.0.7 Release:
+## New Legacy Content:
+- Rebuke the Grave
+- Paralyzing Touch
+- Undead Graft (Skeletal)
+## Bug Fixes:
+- Added missing summons and monster pack data.
+
 # 0.0.6 Release:
 ## Bug Fixes:
 - Bulwark of the Undead
