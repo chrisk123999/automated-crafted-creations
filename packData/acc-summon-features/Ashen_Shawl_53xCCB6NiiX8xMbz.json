@@ -1,15 +1,15 @@
 {
-  "name": "Deathless Vigor",
+  "name": "Ashen Shawl",
   "type": "feat",
-  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "img": "icons/magic/sonic/explosion-impact-shock-wave.webp",
   "system": {
     "activities": {
-      "Mwck9WGj6Mh9gBlc": {
+      "pDFefsbD27cn9NGf": {
         "type": "utility",
-        "_id": "Mwck9WGj6Mh9gBlc",
+        "_id": "pDFefsbD27cn9NGf",
         "sort": 0,
         "activation": {
-          "type": "special",
+          "type": "reaction",
           "override": false,
           "condition": ""
         },
@@ -18,15 +18,23 @@
             "allowed": false
           },
           "spellSlot": true,
-          "targets": []
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
         },
         "description": {
           "chatFlavor": ""
         },
         "duration": {
-          "units": "inst",
+          "units": "round",
           "concentration": false,
-          "override": false
+          "override": false,
+          "value": "2"
         },
         "effects": [],
         "range": {
@@ -56,10 +64,10 @@
         "roll": {
           "prompt": false,
           "visible": false,
-          "name": "",
-          "formula": ""
+          "formula": "",
+          "name": ""
         },
-        "useConditionText": "",
+        "useConditionText": "reaction == \"preAttack\"",
         "useConditionReason": "",
         "effectConditionText": "",
         "macroData": {
@@ -87,7 +95,7 @@
           "autoTargetType": "any",
           "autoTargetAction": "default",
           "automationOnly": false,
-          "otherActivityCompatible": true,
+          "otherActivityCompatible": false,
           "otherActivityAsParentType": true,
           "identifier": "",
           "displayActivityName": false,
@@ -108,7 +116,7 @@
           "postRemoveConditionText": ""
         },
         "otherActivityId": "none",
-        "otherActivityAsParentType": false,
+        "otherActivityAsParentType": true,
         "name": ""
       }
     },
@@ -116,18 +124,18 @@
       "spent": 0,
       "recovery": [
         {
-          "period": "lr",
+          "period": "recharge",
           "type": "recoverAll"
         }
       ],
-      "max": "max(@abilities.con.mod, 1)"
+      "max": "1"
     },
     "advancement": [],
     "description": {
       "value": "",
       "chat": ""
     },
-    "identifier": "deathless-vigor",
+    "identifier": "ashen-shawl",
     "source": {
       "revision": 1,
       "rules": "2014",
@@ -149,64 +157,8 @@
       "subtype": ""
     }
   },
-  "effects": [
-    {
-      "name": "Deathless Vigor",
-      "changes": [
-        {
-          "key": "system.traits.dr.value",
-          "mode": 2,
-          "value": "poison",
-          "priority": 20
-        }
-      ],
-      "transfer": true,
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "_id": "B70GPTISfYdn4Evk",
-      "type": "base",
-      "system": {},
-      "disabled": false,
-      "duration": {
-        "startTime": null,
-        "combat": null,
-        "seconds": null,
-        "rounds": null,
-        "turns": null,
-        "startRound": null,
-        "startTurn": null
-      },
-      "description": "",
-      "origin": "Actor.15qgvtA1XaZ2SLAu.Item.cWuIkW4r9d4Ce9Jb",
-      "tint": "#ffffff",
-      "statuses": [],
-      "sort": 0,
-      "flags": {
-        "dnd5e": {
-          "riders": {
-            "statuses": []
-          }
-        },
-        "dae": {
-          "enableCondition": "",
-          "disableCondition": "",
-          "stackable": "noneName",
-          "showIcon": false,
-          "disableIncapacitated": false,
-          "selfTarget": false,
-          "selfTargetAlways": false,
-          "dontApply": false,
-          "durationExpression": "",
-          "macroRepeat": "none",
-          "specialDuration": []
-        },
-        "core": {
-          "overlay": false
-        }
-      },
-      "_key": "!items.effects!IDkzIZwHgKoABgr0.B70GPTISfYdn4Evk"
-    }
-  ],
-  "folder": "AS1iGQSeUts6IRkm",
+  "effects": [],
+  "folder": "wJnOpmSdzsJzZDWh",
   "flags": {
     "dnd5e": {
       "riders": {
@@ -215,18 +167,10 @@
     },
     "chris-premades": {
       "info": {
-        "identifier": "deathlessVigor",
-        "rules": "legacy",
-        "source": "automated-crafted-creations",
-        "version": "0.0.10"
-      },
-      "macros": {
-        "save": [
-          "deathlessVigor"
-        ]
+        "identifier": "dustAshenShawl"
       }
     }
   },
-  "_id": "IDkzIZwHgKoABgr0",
-  "_key": "!items!IDkzIZwHgKoABgr0"
+  "_id": "53xCCB6NiiX8xMbz",
+  "_key": "!items!53xCCB6NiiX8xMbz"
 }

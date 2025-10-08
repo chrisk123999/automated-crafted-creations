@@ -1,5 +1,6 @@
 # 0.0.8 Release:
 ## Bug Fixes:
+- Deathless Vigor
 - Added missing summon feature pack data.
 
 # 0.0.7 Release:

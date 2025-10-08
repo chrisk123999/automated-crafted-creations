@@ -15,7 +15,7 @@ async function save({trigger: {entity: item, config, actor, roll, saveId, token}
 }
 export let deathlessVigor = {
     name: 'Deathless Vigor',
-    version: '0.0.5',
+    version: '0.0.10',
     rules: 'legacy',
     save: [
         {

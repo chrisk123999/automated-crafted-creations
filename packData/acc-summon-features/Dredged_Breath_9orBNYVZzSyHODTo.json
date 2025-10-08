@@ -1,15 +1,15 @@
 {
-  "name": "Deathless Vigor",
+  "name": "Dredged Breath",
   "type": "feat",
-  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "img": "icons/magic/perception/eye-slit-pink.webp",
   "system": {
     "activities": {
-      "Mwck9WGj6Mh9gBlc": {
-        "type": "utility",
-        "_id": "Mwck9WGj6Mh9gBlc",
+      "kiMUJ2CcKKDKrYrR": {
+        "type": "save",
+        "_id": "kiMUJ2CcKKDKrYrR",
         "sort": 0,
         "activation": {
-          "type": "special",
+          "type": "action",
           "override": false,
           "condition": ""
         },
@@ -18,17 +18,29 @@
             "allowed": false
           },
           "spellSlot": true,
-          "targets": []
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
         },
         "description": {
           "chatFlavor": ""
         },
         "duration": {
-          "units": "inst",
+          "units": "minute",
           "concentration": false,
-          "override": false
+          "override": false,
+          "value": "1"
         },
-        "effects": [],
+        "effects": [
+          {
+            "_id": "r0dj7iJqVcnhGIZr",
+            "onSave": false
+          }
+        ],
         "range": {
           "units": "self",
           "override": false,
@@ -38,11 +50,14 @@
           "template": {
             "contiguous": false,
             "units": "ft",
-            "type": ""
+            "count": "",
+            "type": "cone",
+            "size": "15"
           },
           "affects": {
             "choice": false,
-            "type": "self",
+            "count": "",
+            "type": "creature",
             "special": ""
           },
           "override": false,
@@ -53,11 +68,21 @@
           "recovery": [],
           "max": ""
         },
-        "roll": {
-          "prompt": false,
-          "visible": false,
-          "name": "",
-          "formula": ""
+        "damage": {
+          "onSave": "half",
+          "critical": {
+            "allow": false
+          },
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": "10"
+          }
         },
         "useConditionText": "",
         "useConditionReason": "",
@@ -87,7 +112,7 @@
           "autoTargetType": "any",
           "autoTargetAction": "default",
           "automationOnly": false,
-          "otherActivityCompatible": true,
+          "otherActivityCompatible": false,
           "otherActivityAsParentType": true,
           "identifier": "",
           "displayActivityName": false,
@@ -107,27 +132,32 @@
           "preRemoveConditionText": "",
           "postRemoveConditionText": ""
         },
-        "otherActivityId": "none",
-        "otherActivityAsParentType": false,
-        "name": ""
+        "otherActivityId": "",
+        "otherActivityAsParentType": true,
+        "friendlySave": "default",
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "r0dj7iJqVcnhGIZr"
+        ]
       }
     },
     "uses": {
       "spent": 0,
       "recovery": [
         {
-          "period": "lr",
+          "period": "day",
           "type": "recoverAll"
         }
       ],
-      "max": "max(@abilities.con.mod, 1)"
+      "max": "1"
     },
     "advancement": [],
     "description": {
       "value": "",
       "chat": ""
     },
-    "identifier": "deathless-vigor",
+    "identifier": "dredged-breath",
     "source": {
       "revision": 1,
       "rules": "2014",
@@ -151,20 +181,21 @@
   },
   "effects": [
     {
-      "name": "Deathless Vigor",
+      "name": "Dredged Breath",
+      "img": "icons/magic/perception/eye-slit-pink.webp",
+      "origin": "Item.8oj9OLsjrNRf5vPf",
+      "transfer": false,
+      "_id": "r0dj7iJqVcnhGIZr",
+      "type": "base",
+      "system": {},
       "changes": [
         {
-          "key": "system.traits.dr.value",
-          "mode": 2,
-          "value": "poison",
+          "key": "flags.midi-qol.OverTime",
+          "value": "turn=end,allowIncapacitated=true,rollType=save,saveAbility=dex,saveDC=$activity.dc,saveDamage=nodamage,saveRemove=true,rollMode=publicroll,",
+          "mode": 0,
           "priority": 20
         }
       ],
-      "transfer": true,
-      "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
-      "_id": "B70GPTISfYdn4Evk",
-      "type": "base",
-      "system": {},
       "disabled": false,
       "duration": {
         "startTime": null,
@@ -176,11 +207,18 @@
         "startTurn": null
       },
       "description": "",
-      "origin": "Actor.15qgvtA1XaZ2SLAu.Item.cWuIkW4r9d4Ce9Jb",
       "tint": "#ffffff",
       "statuses": [],
       "sort": 0,
       "flags": {
+        "chris-premades": {
+          "noAnimation": false,
+          "conditions": [
+            "blinded"
+          ],
+          "specialDuration": [],
+          "templateEffectActivities": []
+        },
         "dnd5e": {
           "riders": {
             "statuses": []
@@ -203,10 +241,10 @@
           "overlay": false
         }
       },
-      "_key": "!items.effects!IDkzIZwHgKoABgr0.B70GPTISfYdn4Evk"
+      "_key": "!items.effects!9orBNYVZzSyHODTo.r0dj7iJqVcnhGIZr"
     }
   ],
-  "folder": "AS1iGQSeUts6IRkm",
+  "folder": "wJnOpmSdzsJzZDWh",
   "flags": {
     "dnd5e": {
       "riders": {
@@ -215,18 +253,10 @@
     },
     "chris-premades": {
       "info": {
-        "identifier": "deathlessVigor",
-        "rules": "legacy",
-        "source": "automated-crafted-creations",
-        "version": "0.0.10"
-      },
-      "macros": {
-        "save": [
-          "deathlessVigor"
-        ]
+        "identifier": "dustDredgedBreath"
       }
     }
   },
-  "_id": "IDkzIZwHgKoABgr0",
-  "_key": "!items!IDkzIZwHgKoABgr0"
+  "_id": "9orBNYVZzSyHODTo",
+  "_key": "!items!9orBNYVZzSyHODTo"
 }

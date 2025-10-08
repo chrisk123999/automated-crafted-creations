@@ -1,0 +1,54 @@
+{
+  "name": "Beguiling Appearance",
+  "type": "feat",
+  "img": "icons/commodities/bones/bone-simple-white-brown.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "beguiling-appearance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "wJnOpmSdzsJzZDWh",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "dustBeguilingAppearance"
+      }
+    }
+  },
+  "_id": "VhceXhB66isElvrq",
+  "_key": "!items!VhceXhB66isElvrq"
+}
