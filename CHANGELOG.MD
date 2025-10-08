@@ -1,3 +1,7 @@
+# 0.0.8 Release:
+## Bug Fixes:
+- Added missing summon feature pack data.
+
 # 0.0.7 Release:
 ## New Legacy Content:
 - Rebuke the Grave
