@@ -1,6 +1,8 @@
 # 0.0.9 Release:
 ## New Legacy Content:
 - Greater Undead Servant
+## Update Notes:
+- ACC now requires D&D system version 5.1.10!
 
 # 0.0.8 Release:
 ## Bug Fixes:
