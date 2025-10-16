@@ -80,6 +80,20 @@ async function use({trigger, workflow}) {
             disposition: workflow.token.document.disposition
         }
     };
+    let greaterUndeadServant = itemUtils.getItemByIdentifier(workflow.actor, 'greaterUndeadServant');
+    if (greaterUndeadServant) {
+        let featPackId = genericUtils.getCPRSetting('featCompendium');
+        let featPack = game.packs.get(featPackId);
+        if (featPack) {
+            let featNames = itemUtils.getConfig(greaterUndeadServant, 'feats');
+            if (featNames.length) {
+                let feats = (await Promise.all(featNames.map(async name => {
+                    return await compendiumUtils.getItemFromCompendium(featPackId, name, {object: true});
+                }))).filter(i => i);
+                if (feats.length) updates.actor.items.push(...feats);
+            }
+        }
+    }
     let avatarImg = itemUtils.getConfig(workflow.item, 'avatar');
     let tokenImg = itemUtils.getConfig(workflow.item, 'token');
     if (avatarImg) updates.actor.img = avatarImg;

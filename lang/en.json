@@ -1,5 +1,8 @@
 {
     "AUTOMATEDCRAFTEDCREATIONS": {
+        "Config": {
+            "Feats": "Feats:"
+        },
         "DeathlessVigor": {
             "Failed": "You have failed your save ({total})! Use {name}?"
         },

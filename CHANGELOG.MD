@@ -1,3 +1,7 @@
+# 0.0.9 Release:
+## New Legacy Content:
+- Greater Undead Servant
+
 # 0.0.8 Release:
 ## Bug Fixes:
 - Deathless Vigor

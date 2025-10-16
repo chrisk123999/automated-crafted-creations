@@ -9,3 +9,4 @@ export {undeadAcclimation} from './macros/2014/graveWarden/undeadAcclimation.js'
 export {rebukeTheGrave} from './macros/2014/graveWarden/rebukeTheGrave.js';
 export {undeadGraftSkeletal} from './macros/2014/graveWarden/ash/undeadGraftSkeletal.js';
 export {paralyzingTouch} from './macros/2014/graveWarden/ash/paralyzingTouch.js';
+export {greaterUndeadServant} from './macros/2014/graveWarden/ash/greaterUndeadServant.js';

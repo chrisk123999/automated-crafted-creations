@@ -1,0 +1,57 @@
+{
+  "name": "Greater Undead Servant",
+  "type": "feat",
+  "img": "icons/magic/death/skull-humanoid-worn-teal.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "advancement": [],
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "greater-undead-servant",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "vxEjVcZbsqWBK2J9",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "greaterUndeadServant",
+        "rules": "legacy",
+        "source": "automated-crafted-creations",
+        "version": "0.0.9"
+      }
+    }
+  },
+  "_id": "mkQsX4B6Cx61sZor",
+  "_key": "!items!mkQsX4B6Cx61sZor"
+}
