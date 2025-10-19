@@ -1,3 +1,8 @@
+# 0.0.10 Release:
+## New Legacy Content:
+- Reanimation
+- Ossien Armor
+
 # 0.0.9 Release:
 ## New Legacy Content:
 - Greater Undead Servant
