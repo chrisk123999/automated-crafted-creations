@@ -1,4 +1,4 @@
-import {activityUtils, dialogUtils, genericUtils, itemUtils, workflowUtils} from '../../../../utils.js';
+import {activityUtils, dialogUtils, genericUtils, itemUtils, workflowUtils} from '../../../../../utils.js';
 async function damage({trigger, workflow}) {
     if (!workflow.hitTargets.size) return;
     let paralyzingTouch = itemUtils.getItemByIdentifier(workflow.actor, 'paralyzingTouch');

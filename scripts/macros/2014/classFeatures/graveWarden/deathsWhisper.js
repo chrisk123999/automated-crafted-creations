@@ -1,4 +1,4 @@
-import {activityUtils, spellUtils} from '../../../utils.js';
+import {activityUtils, spellUtils} from '../../../../utils.js';
 async function skill({trigger: {entity: item, skillId}}) {
     if (skillId != 'rel') return;
     return {label: 'AUTOMATEDCRAFTEDCREATIONS.DeathsWhisper.Skill', type: 'advantage'};

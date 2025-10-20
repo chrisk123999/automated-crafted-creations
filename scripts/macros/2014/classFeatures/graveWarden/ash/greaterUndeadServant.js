@@ -1,4 +1,4 @@
-import {constants} from '../../../../utils.js';
+import {constants} from '../../../../../utils.js';
 export let greaterUndeadServant = {
     name: 'Greater Undead Servant',
     version: '0.0.9',

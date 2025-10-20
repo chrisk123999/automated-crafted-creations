@@ -93,6 +93,13 @@
       "path": "packs/acc-monsters",
       "type": "Actor",
       "module": "automated-crafted-creations"
+    },
+    {
+      "name": "ACCMonsterFeatures",
+      "label": "ACC Monster Features",
+      "path": "packs/acc-monster-features",
+      "type": "Item",
+      "module": "automated-crafted-creations"
     }
   ],
   "packFolders": [
@@ -105,7 +112,8 @@
         "ACCClassFeatures",
         "ACCSummons",
         "ACCSummonFeatures",
-        "ACCMonsters"
+        "ACCMonsters",
+        "ACCMonsterFeatures"
       ]
     }
   ],

@@ -1,5 +1,5 @@
-import {activityUtils, actorUtils, dialogUtils, effectUtils, genericUtils, itemUtils, workflowUtils} from '../../../../utils.js';
-import {sharpCard} from '../../../chris/items/weapons/sharpCard.js';
+import {actorUtils, dialogUtils, effectUtils, genericUtils, itemUtils, workflowUtils} from '../../../../../utils.js';
+import {sharpCard} from '../../../../chris/items/weapons/sharpCard.js';
 async function damage({trigger, workflow}) {
     if (!workflow.hitTargets.size || !workflow.token) return;
     let documents = {

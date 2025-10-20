@@ -46,6 +46,11 @@
             "StrASI": "Strength ASI:",
             "WisASI": "Wisdom ASI:"
         },
+        "Varakhut": {
+            "DisjunctiveBlast": {
+                "Select": "Select an item to become inert:"
+            }
+        },
         "WildCardsGambit": {
             "Blade": "Blade",
             "Heart": "Heart",

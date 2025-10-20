@@ -2,7 +2,8 @@ import {compilePack, extractPack} from '@foundryvtt/foundryvtt-cli';
 let itemPacks = [
     'acc-items',
     'acc-class-features',
-    'acc-summon-features'
+    'acc-summon-features',
+    'acc-monster-features'
 ];
 let actorPacks = [
     'acc-monsters',

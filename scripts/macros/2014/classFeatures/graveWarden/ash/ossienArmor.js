@@ -1,4 +1,4 @@
-import {actorUtils, dialogUtils, socketUtils, thirdPartyUtils, workflowUtils} from '../../../../utils.js';
+import {actorUtils, dialogUtils, socketUtils, thirdPartyUtils, workflowUtils} from '../../../../../utils.js';
 async function damaged({trigger: {targetToken}, workflow, ditem}) {
     await thirdPartyUtils.damaged(workflow, ditem, targetToken, 'ossienArmor', 'use', {distance: 5, halfDamage: true});
 }

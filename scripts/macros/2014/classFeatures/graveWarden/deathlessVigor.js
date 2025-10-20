@@ -1,4 +1,4 @@
-import {dialogUtils, genericUtils, itemUtils, workflowUtils} from '../../../utils.js';
+import {dialogUtils, genericUtils, itemUtils, workflowUtils} from '../../../../utils.js';
 async function save({trigger: {entity: item, config, actor, roll, saveId, token}}) {
     if (saveId != 'con') return;
     if (config['chris-premades']?.deathlessVigor) return;

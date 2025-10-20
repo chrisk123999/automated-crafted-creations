@@ -1,4 +1,4 @@
-import {actorUtils, dialogUtils, itemUtils, thirdPartyUtils, workflowUtils} from '../../../utils.js';
+import {actorUtils, dialogUtils, itemUtils, thirdPartyUtils, workflowUtils} from '../../../../utils.js';
 async function attacked({trigger, workflow}) {
     if (!workflow.hitTargets.size) return; 
     await thirdPartyUtils.attacked(workflow, 'darkMending', 'use', {distance: 60, attacker: false, creatureTypes: ['undead'], isOwner: true, dispositionType: 'ally'});

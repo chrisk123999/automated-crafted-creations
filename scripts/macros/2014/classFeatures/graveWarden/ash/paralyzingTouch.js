@@ -1,4 +1,4 @@
-import {itemUtils} from '../../../../utils.js';
+import {itemUtils} from '../../../../../utils.js';
 async function added({trigger: {entity: item}}) {
     await itemUtils.fixScales(item);
 }

@@ -1,4 +1,4 @@
-import {effectUtils, genericUtils} from '../../../../utils.js';
+import {effectUtils, genericUtils} from '../../../../../utils.js';
 async function use({trigger, workflow}) {
     if (!workflow.targets.size) return;
     let effect = effectUtils.getEffectByIdentifier(workflow.actor, 'undeadServantDust');

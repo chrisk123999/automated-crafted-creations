@@ -1,4 +1,4 @@
-import {actorUtils, effectUtils, genericUtils, tokenUtils} from '../../../utils.js';
+import {actorUtils, effectUtils, genericUtils, tokenUtils} from '../../../../utils.js';
 async function early({trigger, workflow}) {
     if (workflow.activity?.range?.units != 'touch') {
         genericUtils.notify('AUTOMATEDCRAFTEDCREATIONS.ThrallsBoon.WrongType', 'info');

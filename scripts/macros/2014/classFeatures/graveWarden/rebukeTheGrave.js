@@ -1,4 +1,4 @@
-import {itemUtils, workflowUtils, actorUtils, dialogUtils, effectUtils, socketUtils, genericUtils} from '../../../utils.js';
+import {itemUtils, workflowUtils, actorUtils, dialogUtils, effectUtils, socketUtils, genericUtils} from '../../../../utils.js';
 async function damaged({trigger: {entity: item, token}, ditem}) {
     if (!ditem.isHit || ditem.newHP != 0 || ditem.oldHP === 0) return;
     if (!itemUtils.canUse(item)) return;

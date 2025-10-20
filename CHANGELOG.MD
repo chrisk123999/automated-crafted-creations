@@ -1,3 +1,7 @@
+# 0.0.11 Release:
+## New Monster Content:
+- Varakhut: Disintegration Ray, Disjunctive Blast, Purge Mind (Spell Variant), Curse of Diminished Ambition (Spell Variant)
+
 # 0.0.10 Release:
 ## New Legacy Content:
 - Reanimation
