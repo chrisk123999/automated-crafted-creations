@@ -20,6 +20,11 @@
         "RebukeTheGrave": {
             "Reaction": "Who is using their reaction?"
         },
+        "Summons": {
+            "CreatureNames": {
+                "Shadow": "Shadow"
+            }
+        },
         "ThrallsBoon": {
             "Reaction": "Undead Servant has already used its reaction!",
             "TooFar": "Undead servant is too far away!",

@@ -1,0 +1,510 @@
+{
+  "name": "Leafwarden Moonblade",
+  "type": "weapon",
+  "effects": [
+    {
+      "name": "Leafwarden Moonblade",
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": 20
+        }
+      ],
+      "transfer": true,
+      "img": "modules/automated-crafted-creations/images/items/leafwardenMoonblade.webp",
+      "_id": "0zNsURTkef1dIGsV",
+      "type": "base",
+      "system": {},
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.world.acc-items.Item.GJjJBaa7oNRpgQwX",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "disableIncapacitated": false,
+          "selfTarget": false,
+          "selfTargetAlways": false,
+          "dontApply": false,
+          "durationExpression": "",
+          "macroRepeat": "none",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_key": "!items.effects!GJjJBaa7oNRpgQwX.0zNsURTkef1dIGsV"
+    }
+  ],
+  "system": {
+    "activities": {
+      "attackMoonbLongs": {
+        "type": "attack",
+        "_id": "attackMoonbLongs",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": true
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "value": "24",
+          "units": "inst",
+          "special": "",
+          "override": true,
+          "concentration": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": null,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "confirmTargets": "default",
+          "automationOnly": false,
+          "identifier": "",
+          "forceDamageDialog": "",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "otherActivityCompatible": true,
+          "otherActivityAsParentType": true,
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "autoCEEffects": "none",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "skipConcentrationCheck": false
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": "",
+          "rollAs": "target"
+        },
+        "otherActivityId": "none",
+        "otherActivityAsParentType": true,
+        "attackMode": "oneHanded",
+        "ammunition": "",
+        "otherActivityUuid": "",
+        "attackRollPerTarget": "default",
+        "fumbleThreshold": 1,
+        "flags": {},
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "name": ""
+      },
+      "o5URfqhzkauhadfc": {
+        "type": "utility",
+        "_id": "o5URfqhzkauhadfc",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "flags": {},
+        "range": {
+          "units": "ft",
+          "override": true,
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "useConditionText": "",
+        "useConditionReason": "",
+        "effectConditionText": "",
+        "macroData": {
+          "name": "",
+          "command": ""
+        },
+        "ignoreTraits": {
+          "idi": false,
+          "idr": false,
+          "idv": false,
+          "ida": false,
+          "idm": false
+        },
+        "midiProperties": {
+          "ignoreTraits": [],
+          "triggeredActivityId": "none",
+          "triggeredActivityConditionText": "",
+          "triggeredActivityTargets": "targets",
+          "triggeredActivityRollAs": "self",
+          "autoConsume": false,
+          "forceConsumeDialog": "default",
+          "forceRollDialog": "default",
+          "forceDamageDialog": "default",
+          "confirmTargets": "default",
+          "autoTargetType": "any",
+          "autoTargetAction": "default",
+          "automationOnly": false,
+          "otherActivityCompatible": false,
+          "otherActivityAsParentType": true,
+          "identifier": "",
+          "displayActivityName": false,
+          "rollMode": "default",
+          "chooseEffects": false,
+          "toggleEffect": false,
+          "ignoreFullCover": false,
+          "removeChatButtons": "default",
+          "magicEffect": false,
+          "magicDamage": false,
+          "noConcentrationCheck": false,
+          "skipConcentrationCheck": false,
+          "autoCEEffects": "none"
+        },
+        "isOverTimeFlag": false,
+        "overTimeProperties": {
+          "saveRemoves": true,
+          "rollAs": "target",
+          "preRemoveConditionText": "",
+          "postRemoveConditionText": ""
+        },
+        "otherActivityId": "none",
+        "otherActivityAsParentType": true,
+        "name": "Summon Shadow"
+      }
+    },
+    "uses": {
+      "spent": null,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>Weapon (any sword), Legendary (requires attunement by a Creature of the Weapon's Choice)</em></p><p><strong>Runic Bonus.</strong> You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Warden’s Resolve.</strong> While attuned to this weapon, you have Immunity to the Charmed and Frightened conditions.</p><p><strong>Dragon’s Bane.</strong> When you hit a Dragon with an attack roll using this weapon, the target takes an extra 3d6 Force damage.</p><p><strong>Shadow of Ethvarn.</strong> You can take a Magic action to conjure a spectral entity in an unoccupied space within 120 feet of you. It uses the Shadow stat block with the following changes:</p><p>Its creature type is Fey.</p><p>Its alignment is Neutral.</p><p>It cannot create new shadows.</p><p>It remains until it drops to 0 Hit Points or you dismiss it as a Magic action. You control this entity, deciding how it acts and moves.</p>",
+      "chat": ""
+    },
+    "identifier": "moonblade-longsword",
+    "source": {
+      "book": "DMG 2024",
+      "page": "",
+      "license": "",
+      "custom": "",
+      "rules": "2024",
+      "revision": 1
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "ammunition": {},
+    "armor": {},
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "bonus": "",
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": 1,
+    "mastery": "sap",
+    "properties": [
+      "ver",
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 5,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "type": {
+      "value": "martialM",
+      "baseItem": "longsword"
+    },
+    "crew": {
+      "value": []
+    },
+    "attuned": true,
+    "equipped": true
+  },
+  "flags": {
+    "ddbimporter": {
+      "originalName": "Moonblade Longsword",
+      "version": "6.4.21",
+      "dndbeyond": {
+        "type": "Longsword",
+        "avatarUrl": "https://www.dndbeyond.com/avatars/45205/683/638657413830074703.jpeg",
+        "largeAvatarUrl": "https://www.dndbeyond.com/avatars/45205/684/638657413831165665.png",
+        "filterType": "Weapon",
+        "isConsumable": false,
+        "isContainer": false,
+        "isCustomItem": false,
+        "homebrew": false,
+        "isMonkWeapon": false,
+        "isPack": false,
+        "levelInfusionGranted": null,
+        "tags": [],
+        "sources": [
+          {
+            "sourceId": 146,
+            "pageNumber": 279,
+            "sourceType": 1
+          }
+        ],
+        "damage": {
+          "parts": []
+        },
+        "classFeatures": [],
+        "ability": "str"
+      },
+      "is2014": false,
+      "is2024": true,
+      "legacy": false,
+      "id": 0,
+      "entityTypeId": 0,
+      "definitionEntityTypeId": 112130694,
+      "definitionId": 9228854,
+      "defaultAdditionalActivities": {
+        "enabled": true,
+        "data": {}
+      },
+      "effectsApplied": true
+    },
+    "infusions": {
+      "maps": [],
+      "applied": [],
+      "infused": false
+    },
+    "midi-qol": {
+      "removeAttackDamageButtons": "default",
+      "forceCEOff": true
+    },
+    "midiProperties": {
+      "confirmTargets": "default"
+    },
+    "dnd5e": {
+      "last": {
+        "attackMoonbLongs": {
+          "attackMode": "twoHanded",
+          "damageType": {
+            "0": "slashing"
+          }
+        }
+      },
+      "riders": {
+        "activity": []
+      }
+    },
+    "chris-premades": {
+      "info": {
+        "identifier": "leafwardenMoonblade",
+        "source": "automated-crafted-creations",
+        "version": "0.0.12",
+        "rules": "modern",
+        "hasAnimation": false
+      },
+      "macros": {
+        "midi": {
+          "item": [
+            "leafwardenMoonblade"
+          ]
+        }
+      },
+      "hiddenActivities": [],
+      "activityIdentifiers": {
+        "attack": "attackMoonbLongs",
+        "use": "o5URfqhzkauhadfc"
+      }
+    }
+  },
+  "img": "modules/automated-crafted-creations/images/items/leafwardenMoonblade.webp",
+  "folder": null,
+  "_id": "GJjJBaa7oNRpgQwX",
+  "_key": "!items!GJjJBaa7oNRpgQwX"
+}

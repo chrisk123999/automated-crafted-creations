@@ -22,14 +22,12 @@
             {
               "type": "itemUses",
               "value": "1",
-              "target": "r79WsXtacDrrxGM0",
-              "scaling": {}
+              "target": "r79WsXtacDrrxGM0"
             },
             {
               "type": "itemUses",
               "value": "1",
-              "target": "",
-              "scaling": {}
+              "target": ""
             }
           ]
         },
@@ -43,9 +41,10 @@
         },
         "effects": [],
         "range": {
-          "units": "self",
+          "units": "ft",
           "override": false,
-          "special": ""
+          "special": "",
+          "value": "30"
         },
         "target": {
           "template": {
@@ -55,7 +54,9 @@
           },
           "affects": {
             "choice": false,
-            "type": ""
+            "type": "creature",
+            "count": "1",
+            "special": ""
           },
           "override": false,
           "prompt": true
@@ -93,10 +94,7 @@
               "bonus": "",
               "types": [
                 "slashing"
-              ],
-              "scaling": {
-                "number": 1
-              }
+              ]
             }
           ]
         },
@@ -155,7 +153,9 @@
         "otherActivityUuid": "",
         "attackRollPerTarget": "default",
         "fumbleThreshold": 1,
-        "name": ""
+        "name": "",
+        "img": "",
+        "appliedEffects": []
       }
     },
     "uses": {
