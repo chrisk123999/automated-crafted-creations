@@ -1,7 +1,7 @@
 {
   "name": "Chronoloom Pocket Watch",
   "type": "equipment",
-  "img": "modules/automated-crafted-creations/images/items/chronoloom.webp",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
   "system": {
     "activities": {
       "9SGb7JDTV3daCz7S": {
@@ -130,7 +130,7 @@
       "max": "1"
     },
     "description": {
-      "value": "<p>The Chronoloom Pocket Watch has 1 charge. As an action, you may speak the command word and open the watch, casting Time Stop (no components required). After casting, roll a d12. On a result of 12, the pocket watch retains its charge. Otherwise, the charge is expended. The watch regains its expended charge at the next dawn.</p><hr /><p>This exquisite pocket watch is fashioned from silvery star-metal, etched with swirling arcane sigils and delicate glyphs of the thirteen moons of Wordal. The face of the watch shimmers with motes of starlight that shift restlessly beneath the glass, the hands ticking silently in perfect rhythm—though never to mortal time. When you hold the Chronoloom, you feel a faint tension, as if the flow of moments themselves strain against its delicate mechanism.</p>",
+      "value": "",
       "chat": ""
     },
     "identifier": "chronoloom-pocket-watch",

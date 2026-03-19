@@ -19,7 +19,7 @@
         }
       ],
       "transfer": true,
-      "img": "modules/automated-crafted-creations/images/items/leafwardenMoonblade.webp",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
       "_id": "0zNsURTkef1dIGsV",
       "type": "base",
       "system": {},
@@ -332,7 +332,7 @@
       "recovery": []
     },
     "description": {
-      "value": "<p><em>Weapon (any sword), Legendary (requires attunement by a Creature of the Weapon's Choice)</em></p><p><strong>Runic Bonus.</strong> You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p><p><strong>Warden’s Resolve.</strong> While attuned to this weapon, you have Immunity to the Charmed and Frightened conditions.</p><p><strong>Dragon’s Bane.</strong> When you hit a Dragon with an attack roll using this weapon, the target takes an extra 3d6 Force damage.</p><p><strong>Shadow of Ethvarn.</strong> You can take a Magic action to conjure a spectral entity in an unoccupied space within 120 feet of you. It uses the Shadow stat block with the following changes:</p><p>Its creature type is Fey.</p><p>Its alignment is Neutral.</p><p>It cannot create new shadows.</p><p>It remains until it drops to 0 Hit Points or you dismiss it as a Magic action. You control this entity, deciding how it acts and moves.</p>",
+      "value": "",
       "chat": ""
     },
     "identifier": "moonblade-longsword",
@@ -503,7 +503,7 @@
       }
     }
   },
-  "img": "modules/automated-crafted-creations/images/items/leafwardenMoonblade.webp",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
   "folder": null,
   "_id": "GJjJBaa7oNRpgQwX",
   "_key": "!items!GJjJBaa7oNRpgQwX"

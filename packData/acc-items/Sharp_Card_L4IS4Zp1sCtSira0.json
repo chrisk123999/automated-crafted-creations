@@ -129,7 +129,7 @@
       "recovery": []
     },
     "description": {
-      "value": "<p>A thin, expertly cut playing card honed to razor sharpness. Favored by gamblers and rogues, these mundane cards can be thrown with lethal precision, slicing through the air as silently as any dagger. In the right hands, luck can cut just as deep as steel.</p>",
+      "value": "",
       "chat": ""
     },
     "identifier": "dagger",
@@ -291,7 +291,7 @@
       }
     }
   },
-  "img": "modules/automated-crafted-creations/images/items/sharpCard.webp",
+  "img": "systems/dnd5e/icons/svg/items/weapon.svg",
   "folder": null,
   "_id": "L4IS4Zp1sCtSira0",
   "_key": "!items!L4IS4Zp1sCtSira0"

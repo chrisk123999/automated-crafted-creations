@@ -1,3 +1,7 @@
+# 0.0.13 Release:
+## Update Notes:
+- Purged all AI generated images and descriptions.
+
 # 0.0.12 Release:
 ## New Homebrew Items:
 - Leafwarden Moonblade
